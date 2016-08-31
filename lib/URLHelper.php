@@ -214,7 +214,7 @@ class URLHelper {
 	 * @return string
 	 */
 	public static function preslashit( $path ) {
-		if ( strpos($path, '/') != 0 ) {
+		if ( strpos($path, '/') != 0 && strpos($path, 'http') != 0) {
 			$path = '/'.$path;
 		}
 		return $path;
