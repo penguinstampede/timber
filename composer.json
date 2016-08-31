@@ -1,5 +1,5 @@
 {
-  "name": "penguinstampede/timber",
+  "name": "timber/timber",
   "type": "wordpress-plugin",
   "description": "Plugin to write WordPress themes w Object-Oriented Code and the Twig Template Engine",
   "keywords": [
